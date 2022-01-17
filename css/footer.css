@@ -1,0 +1,56 @@
+.footer{
+    position: relative;
+    top: 500px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 3px solid #ccc;
+}
+.footer__title {
+    max-width: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 3px solid #1bbbb3;  
+    font-size: 20px;  
+    margin-left:20%;
+    padding-top: 10px;
+    
+}
+.footer__title__WORK{
+    display: flex;
+    margin-left: 30%;
+    padding-top: 20px;
+    width: 700px;
+    border-bottom: 3px solid #1bbbb3;
+
+}
+.footer__num {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    line-height: 180px;
+    margin-right: 50px;
+}
+.EXPERIENCE{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 1px solid #ccc;
+    padding-top: 10px;
+}
+.EXPERIENCE__icon{
+    position: relative;
+    top: 2px;
+    padding-right: 20px;
+    font-size: 25px;
+}
+.EXPERIENCE__text,.EXPERIENCE__two__text{
+    text-indent: 2em;
+    margin-left: 5px;
+}
+.EXPERIENCE__title,.EXPERIENCE__two__title{
+    font-size: 25px;
+    color: #1bbbb3;
+}
+.EXPERIENCE__time,.EXPERIENCE__two__time{
+    margin-top: 5px;
+    padding-left: 40px;
+}

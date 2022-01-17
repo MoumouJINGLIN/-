@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+
+}
+.header__top{
+    display: flex;
+    background-color: #1bbbb3;
+}
+.header__top__title{
+    display: flex;
+}
+.header__top__title__list {
+    padding: 10px 50px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.icon {
+    font-size: 15px;
+    color: #fff;
+}
+.text {
+    color: #fff;
+}
+
+.header__bom{
+    position: relative;
+    display: flex;
+    background-color: #badcf4;
+}
+.header__bom::after{
+    position: relative;
+    left: -120px;
+    content: '';
+    filter: blur(2px);
+    width: 100%;
+    background: url(../imgs/non.jpg) no-repeat;
+    background-size:100%;
+}
+.header__bom__imgs {
+    width: 200px;
+    height: 200px;
+    margin:30px 10px 20px 70px;
+    border: 3px solid #1bbbb3;
+    z-index: 1;
+}
+.header__bom__name{
+    position: absolute;
+    left: 300px;
+    top: 70px;
+    z-index: 1;
+}
+.header__bom__right{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    z-index: 1;
+}
+
+.header__bom__right__email,.header__bom__right__phone,.header__bom__right__wechat{
+    margin-bottom: 15px;
+}
+.header__bom__right__text{
+    font-weight: 700;
+    color: #1bbbb3;
+
+}
+.header__bom__right__num__email{
+    font-size: 15px;
+    padding-left: 50px;
+}
+.header__bom__right__num__phone {
+    font-size: 15px;
+    padding-left: 44px;
+}
+.header__bom__right__num__wechat{
+    font-size: 15px;
+    padding-left: 34px;
+}
